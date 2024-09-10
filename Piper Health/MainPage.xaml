@@ -28,7 +28,7 @@
                 x:Name="HomeNavigation"
                 Text="Continue" 
                 SemanticProperties.Hint="Contiue to home screen"
-                BackgroundColor="#098C6A"
+                BackgroundColor="Purple"
                 Clicked="OnCounterClicked"
                 HorizontalOptions="Fill" />
         </VerticalStackLayout>
