@@ -11,14 +11,7 @@
 
         private void OnCounterClicked(object sender, EventArgs e)
         {
-            count++;
-
-            if (count == 1)
-                HomeNavigation.Text = $"Clicked {count} time";
-            else
-                HomeNavigation.Text = $"Clicked {count} times";
-
-            SemanticScreenReader.Announce(HomeNavigation.Text);
+            App.Current.MainPage = new NavigationPage(new WorkoutChatPage());
         }
     }
 
